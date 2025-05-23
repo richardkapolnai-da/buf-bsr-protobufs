@@ -1,8 +1,8 @@
 version: v2
 plugins:
   - remote: buf.build/protocolbuffers/java:v21.12  # For protobuf-java 3.21.12 compatibility
-    out: build/generated/source/proto/buf/java
+    out: test/build/generated/source/proto/buf/java
   - remote: buf.build/grpc/java:v1.67.1
-    out: build/generated/source/proto/buf/java
+    out: test/build/generated/source/proto/buf/java
 inputs:
   - directory: proto
