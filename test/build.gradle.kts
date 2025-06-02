@@ -43,4 +43,3 @@ tasks.named("compileJava") {
 sourceSets["main"].java {
     srcDir("build/generated/source/proto/buf/java")
 }
-
